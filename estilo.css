@@ -1,5 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: rgb(135, 177, 128);
+    font-family: Calibri;
+    font-size: 20px;
+    color: black;
+}
+
 .topo {
-    background-color: #df730e;
+    background-color: #06423a;
     padding: 30px;
     font-size: 14px;
     display: block;
@@ -13,12 +24,15 @@
     padding-left: 3px;
 }
 .topo a {
-    color: rgb(19, 218, 218);
+    color: rgb(22, 2, 2);
     text-decoration: none;
     font-size: 16px;}
 .titulo {
     text-align: center;
-   
+   color: rgb(209, 212, 3);
+   margin-bottom: 10px;
+font-size: 25px;
+
 
 }
 .texto {
@@ -28,9 +42,6 @@
 
 }
 
-.grade {
-
-}
 .menu {
     display: flex;
 
@@ -41,3 +52,10 @@
 .materia img{
     width: 100%;
 }
+
+.destaque{
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+
