@@ -11,18 +11,14 @@ body{
 
 .topo {
     background-color: #06423a;
-    padding: 30px;
+    
     font-size: 14px;
     display: block;
     
 
 }
 
-.topo li{
-    padding: 20px;
-    color: black;
-    padding-left: 3px;
-}
+
 .topo a {
     color: rgb(22, 2, 2);
     text-decoration: none;
@@ -44,18 +40,33 @@ font-size: 25px;
 
 .menu {
     display: flex;
+    margin-left: auto;
+    list-style: none;
+    text-align: right;
 
 }
+.menu li {
+    text-align: right;
+    margin-left: 20px;
+
+}
+
 .materia{
     width: 320px;
 }
 .materia img{
     width: 100%;
+    margin-bottom: 20PX;
 }
 
 .destaque{
     font-size: 30px;
     text-align: center;
     color: crimson;
+}
+.navegacao {
+    display: flex;
+    list-style: none;
+
 }
 
