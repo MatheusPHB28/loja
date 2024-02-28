@@ -10,8 +10,7 @@ body{
 }
 
 .topo {
-    background-color: #06423a;
-    
+    background-color: #010202;
     font-size: 14px;
     display: block;
     
@@ -20,9 +19,10 @@ body{
 
 
 .topo a {
-    color: rgb(22, 2, 2);
+    color: rgb(183, 16, 16);
     text-decoration: none;
     font-size: 16px;}
+
 .titulo {
     text-align: center;
    color: rgb(209, 212, 3);
@@ -36,6 +36,9 @@ font-size: 25px;
     margin-bottom: 30px;
     font-size: 20px;
 
+}
+main {
+    padding: 30px;
 }
 
 .menu {
@@ -67,6 +70,57 @@ font-size: 25px;
 .navegacao {
     display: flex;
     list-style: none;
+
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    gap: 20px;
+    
+    
+
+}
+.destaque{
+    margin-bottom: 30px;
+}
+.rodape {
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    
+   }
+  
+   .campo {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    border:none;
+    background-color: rgb(21, 141, 101);
+}
+.campo:focus {
+    background-color: aliceblue;
+    outline: none;
+}
+.rotulo {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea.campo {
+    height: 150px;
+    padding: 10px;
+    font-family: Calibri;
+
+}
+.contato {
+    background-color: aliceblue;
+    padding: 30px;
+   max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
