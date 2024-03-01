@@ -33,6 +33,19 @@ font-size: 25px;
 
 
 }
+.titulo2{
+    text-align: center;
+    color: rgb(209, 212, 3);
+    font-size: 50px;
+}
+.texto2{
+    text-align: center;
+    color: gold;
+    padding-bottom: 30px;
+    font-size: 30px;
+
+}
+
 .texto {
     text-align: center;
     padding-bottom: 30px;
@@ -80,18 +93,24 @@ main {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-   
+    border-radius: 20px;
 }
+   
+
 .caneca img{
     width: 100%;
     margin-bottom: 20PX;
-    padding-top: 103px;
+    padding-top: 20px;
     
+}
+.caneca h1{
+    font-size: 40px;
+    padding-top: 30px;
 }
 
 .titulo2 {
 
-    color: gold;
+    color: rgb(209, 212, 3);
     margin-top: 30px;
 }
 .pochete{
@@ -102,11 +121,23 @@ main {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
+    border-radius: 20px;
 }
+
+
 .pochete img{
     width: 100%;
-    margin-bottom: 20PX
+    margin-bottom: 20px;
+    padding-top: 50px;
+
+}
+.pochete h1{
+    font-size: 40px;
+    padding-top:30px ;
+}
+.titulo3{
+    margin-top: 20px;
+    color: rgb(209, 212, 3);
 
 }
 
@@ -173,5 +204,14 @@ textarea.campo {
    max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
+}
+.botao {
+    color: rgb(232, 22, 3);
+    background-color: rgb(91, 148, 113);
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+
 }
 
